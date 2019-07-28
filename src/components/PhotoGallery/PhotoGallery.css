@@ -1,0 +1,53 @@
+.demo4 {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.7;
+  position: absolute;
+}
+.demo4-inner {
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.demo4-photo {
+  position: absolute;
+}
+
+.subPhotos {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+  width: 75%;
+  overflow: scroll;
+}
+
+.subPhotos__inner {
+  position: relative;
+  margin: auto;
+  /* width: 50%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; */
+  border: 5px solid blue;
+  /* overflow: hidden; */
+}
+
+.subPhotos__photo {
+  border: 2px solid red;
+  position: absolute;
+}
